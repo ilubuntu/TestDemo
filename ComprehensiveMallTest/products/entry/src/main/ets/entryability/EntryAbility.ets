@@ -1,0 +1,24 @@
+import ConfigurationConstant from '@ohos.app.ability.ConfigurationConstant';
+import UIAbility from '@ohos.app.ability.UIAbility';
+import { KeyboardAvoidMode } from '@ohos.arkui.UIContext';
+import window from '@ohos.window';
+
+export default class EntryAbility extends UIAbility {
+  onCreate(): void {
+    this.context
+      .getApplicationContext()
+      .setColorMode(ConfigurationConstant.ColorMode.COLOR_MODE_LIGHT);
+  }
+
+  onWindowStageCreate(windowStage: window.WindowStage): void {
+    windowStage.loadContent(
+      'pages/Index',
+      (): void => {
+        windowStage
+          .getMainWindowSync()
+          .getUIContext()
+          .setKeyboardAvoidMode(KeyboardAvoidMode.OFFSET);
+      },
+    );
+  }
+}

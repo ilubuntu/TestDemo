@@ -1,0 +1,10 @@
+{
+  "module": {
+    "name": "module_login",
+    "type": "har",
+    "deviceTypes": [
+      "phone"
+    ],
+    "routerMap": "$profile:route_map"
+  }
+}

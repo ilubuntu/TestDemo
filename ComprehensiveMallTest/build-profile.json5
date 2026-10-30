@@ -1,0 +1,89 @@
+{
+  "app": {
+    "signingConfigs": [],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "compatibleSdkVersion": "5.0.4(16)",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "strictMode": {
+            "caseSensitiveCheck": true,
+            "useNormalizedOHMUrl": true
+          }
+        }
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./products/entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "lib_network",
+      "srcPath": "./commons/lib_network"
+    },
+    {
+      "name": "shopping",
+      "srcPath": "./scenes/shopping"
+    },
+    {
+      "name": "order",
+      "srcPath": "./scenes/order"
+    },
+    {
+      "name": "module_product_detail",
+      "srcPath": "./components/module_product_detail"
+    },
+    {
+      "name": "lib_foundation",
+      "srcPath": "./commons/lib_foundation"
+    },
+    {
+      "name": "module_address_manage",
+      "srcPath": "./components/module_address_manage"
+    },
+    {
+      "name": "module_product_waterflow",
+      "srcPath": "./components/module_product_waterflow"
+    },
+    {
+      "name": "module_shopping_cart",
+      "srcPath": "./components/module_shopping_cart"
+    },
+    {
+      "name": "module_login",
+      "srcPath": "./components/module_login",
+    },
+    {
+      "name": "module_coupons",
+      "srcPath": "./components/module_coupons",
+    },
+    {
+      "name": "module_product_share",
+      "srcPath": "./components/module_product_share",
+    },
+    {
+      "name": "module_product_search",
+      "srcPath": "./components/module_product_search",
+    }
+  ]
+}
