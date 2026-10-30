@@ -1,0 +1,78 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "C:\\Users\\28113\\.ohos\\config\\default_NotesOrigin_rwzxJCf6V_ZlROVHfpX9oflJxNottegRqT9N-M6qfMM=.cer",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001BB6B7AE9EAD48A0E3833369217EE762DEC674C4297E50614A1096A3CEE2B5463F9781A54C615C3D",
+          "profile": "C:\\Users\\28113\\.ohos\\config\\default_NotesOrigin_rwzxJCf6V_ZlROVHfpX9oflJxNottegRqT9N-M6qfMM=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\28113\\.ohos\\config\\default_NotesOrigin_rwzxJCf6V_ZlROVHfpX9oflJxNottegRqT9N-M6qfMM=.p12",
+          "storePassword": "0000001BD4E3D11E6E59737C85C87200EAEAD5B755E7314406C45D0B5BA0897223DA6F1130F890A034463A"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "compatibleSdkVersion": "5.0.3(15)",
+        "targetSdkVersion": "5.0.3(15)",
+        "runtimeOS": "HarmonyOS"
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug"
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "datasource",
+      "srcPath": "./common/datasource"
+    },
+    {
+      "name": "utils",
+      "srcPath": "./common/utils"
+    },
+    {
+      "name": "phone",
+      "srcPath": "./product/phone",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "secretlock",
+      "srcPath": "./components/secretlock"
+    },
+    {
+      "name": "richeditor",
+      "srcPath": "./components/richeditor"
+    },
+    {
+      "name": "check_app_update",
+      "srcPath": "./components/check_app_update"
+    },
+    {
+      "name": "login",
+      "srcPath": "./components/login"
+    },
+    {
+      "name": "feed_back",
+      "srcPath": "./components/feed_back"
+    }
+  ]
+}
