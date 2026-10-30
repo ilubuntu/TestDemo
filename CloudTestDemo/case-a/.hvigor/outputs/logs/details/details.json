@@ -1,0 +1,133 @@
+{
+  "HVIGOR_OHOS_PLUGIN": {
+    "MODULES": [
+      {
+        "MODULE_NAME": "923fe53966c6cd9343e11af776cd4b05be315ea4b200b02e4d5dfb0f929b73bf",
+        "API_TYPE": "stageMode",
+        "INCLUDE_IN_BUILD": true,
+        "IS_COMMAND_LINE_ENTRY_MODULE": true,
+        "BUILD_OPTION": [
+          {
+            "path": "debuggable",
+            "traceValue": true,
+            "value": false
+          },
+          {
+            "path": "copyFrom",
+            "traceValue": false,
+            "value": ""
+          },
+          {
+            "path": "strictMode",
+            "traceValue": false,
+            "value": ""
+          },
+          {
+            "path": "strictMode.caseSensitiveCheck",
+            "traceValue": true,
+            "value": true
+          },
+          {
+            "path": "strictMode.useNormalizedOHMUrl",
+            "traceValue": true,
+            "value": true
+          },
+          {
+            "path": "arkOptions",
+            "traceValue": false,
+            "value": ""
+          },
+          {
+            "path": "arkOptions.obfuscation",
+            "traceValue": false,
+            "value": ""
+          },
+          {
+            "path": "arkOptions.obfuscation.ruleOptions",
+            "traceValue": false,
+            "value": ""
+          },
+          {
+            "path": "arkOptions.obfuscation.ruleOptions.enable",
+            "traceValue": true,
+            "value": false
+          },
+          {
+            "path": "arkOptions.obfuscation.ruleOptions.files",
+            "traceValue": false,
+            "value": ""
+          }
+        ],
+        "PACKAGE_JSON": [],
+        "MODULE_TYPE": "entry",
+        "INCREMENTAL_TASKS": {
+          "COMPILE_ARKTS": false
+        },
+        "IS_INCREMENTAL_MODULE": false
+      }
+    ],
+    "NATIVE_COMPILER": "Default",
+    "IS_FULL_BUILD": true,
+    "PACKAGE_JSON": [],
+    "BUILD_MODE": "release"
+  },
+  "HVIGOR": {
+    "IS_INCREMENTAL": true,
+    "IS_DAEMON": true,
+    "IS_PARALLEL": true,
+    "IS_HVIGORFILE_TYPE_CHECK": false,
+    "IS_EXECUTION_OHPM_BY_HVIGOR": false,
+    "IS_SYNCNATIVE_COMPILATION": false,
+    "BUILD_ANALYSIS_MODE": "false",
+    "OPTIMIZATION_STRATEGY": "memory",
+    "TASK_TIME": {
+      "923fe53966c6cd9343e11af776cd4b05be315ea4b200b02e4d5dfb0f929b73bf": {
+        "CreateModuleInfo": 349500,
+        "GenerateMetadata": 2774500,
+        "ConfigureCmake": 154300,
+        "MergeProfile": 2159300,
+        "CreateBuildProfile": 1785600,
+        "PreCheckSyscap": 380200,
+        "GeneratePkgContextInfo": 3730800,
+        "GeneratePkgSdkInfo": 1326400,
+        "ProcessIntegratedHsp": 380200,
+        "BuildNativeWithCmake": 165200,
+        "MakePackInfo": 2334200,
+        "SyscapTransform": 1152000,
+        "ProcessProfile": 70217500,
+        "ProcessRouterMap": 3238300,
+        "ProcessShareConfig": 2354700,
+        "ProcessStartupConfig": 1262400,
+        "BuildNativeWithNinja": 1041500,
+        "ProcessResource": 4051000,
+        "GenerateLoaderJson": 7844000,
+        "ProcessLibs": 3612100,
+        "CompileResource": 143638000,
+        "DoNativeStrip": 2146600,
+        "BuildJS": 1107000,
+        "CacheNativeLibs": 476799700,
+        "CompileArkTS": 3948195100,
+        "GeneratePkgModuleJson": 2032900,
+        "ProcessCompiledResources": 491300,
+        "PackageHap": 385153900,
+        "PackingCheck": 2685900,
+        "SignHap": 90936900,
+        "CollectDebugSymbol": 3482900,
+        "assembleHap": 98700
+      }
+    },
+    "CUSTOM_TASK_TIME": {},
+    "CUSTOM_PLUGIN_TIME": {},
+    "APIS": [
+      "getProperty"
+    ],
+    "CONFIG_EXPERIMENT": {
+      "ENABLE_MODULE_SKIP": false,
+      "ENABLE_CPP_FUNCTION_LEVEL_INCREMENTAL": false
+    },
+    "CONFIG_PROPERTIES": {},
+    "PID": 20184,
+    "TOTAL_TIME": 4884131800,
+    "BUILD_ID": "202610271428548350"
+  }
+}

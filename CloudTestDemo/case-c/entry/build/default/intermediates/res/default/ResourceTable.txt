@@ -1,0 +1,10 @@
+string EntryAbility_desc 0x01000000
+string app_name 0x01000001
+string module_desc 0x01000002
+color start_window_background 0x01000003
+media flag_eur_l 0x01000004
+media flag_jpy_l 0x01000005
+media flag_usd_l 0x01000006
+media icon 0x01000007
+media nav_left 0x01000008
+profile main_pages 0x01000009

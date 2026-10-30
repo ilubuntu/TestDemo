@@ -1,0 +1,33 @@
+{
+  "app": {
+    "signingConfigs": [{"name": "default", "type": "HarmonyOS", "material": {"storeFile": "D:/Code/ycstest.p12", "storePassword": "0000001BF8B0AB648C4D615FDA2331AD2594AA3FECBA5C19A3024BAB8A87FBDD59A449478EE200BEDEA033", "keyAlias": "ycstest", "keyPassword": "0000001BE5FC0936E7BB9E265D18D6EFFE796B035966283DA2842EB1CF5398465416809FE539A8A70E83DF", "signAlg": "SHA256withECDSA", "profile": "C:/Users/admin/Downloads/Profile/caseaRelease.p7b", "certpath": "D:/Code/ycstest.cer"}}],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "targetSdkVersion": "26.0.0",
+        "compatibleSdkVersion": "26.0.0",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "strictMode": {
+            "caseSensitiveCheck": true,
+            "useNormalizedOHMUrl": true
+          }
+        }
+      }
+    ],
+    "buildModeSet": [
+      { "name": "debug" },
+      { "name": "release" }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        { "name": "default", "applyToProducts": ["default"] }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "string": [
+    { "name": "app_name", "value": "云测用例A避让留白" },
+    { "name": "module_desc", "value": "cloud test rule case" },
+    { "name": "EntryAbility_desc", "value": "cloud test rule case" }
+  ]
+}

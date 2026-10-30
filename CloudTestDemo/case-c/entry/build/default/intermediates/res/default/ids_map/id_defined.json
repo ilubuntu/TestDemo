@@ -1,0 +1,43 @@
+{
+	"record":	[{
+			"type":	"string",
+			"name":	"EntryAbility_desc",
+			"id":	"0x01000000"
+		}, {
+			"type":	"string",
+			"name":	"app_name",
+			"id":	"0x01000001"
+		}, {
+			"type":	"string",
+			"name":	"module_desc",
+			"id":	"0x01000002"
+		}, {
+			"type":	"color",
+			"name":	"start_window_background",
+			"id":	"0x01000003"
+		}, {
+			"type":	"media",
+			"name":	"flag_eur_l",
+			"id":	"0x01000004"
+		}, {
+			"type":	"media",
+			"name":	"flag_jpy_l",
+			"id":	"0x01000005"
+		}, {
+			"type":	"media",
+			"name":	"flag_usd_l",
+			"id":	"0x01000006"
+		}, {
+			"type":	"media",
+			"name":	"icon",
+			"id":	"0x01000007"
+		}, {
+			"type":	"media",
+			"name":	"nav_left",
+			"id":	"0x01000008"
+		}, {
+			"type":	"profile",
+			"name":	"main_pages",
+			"id":	"0x01000009"
+		}]
+}

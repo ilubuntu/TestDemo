@@ -1,0 +1,3 @@
+{
+  "src": ["pages/Index", "pages/S1TruncatePage", "pages/S2KeyboardPage", "pages/S3OverlapPage"]
+}
