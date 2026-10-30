@@ -1,0 +1,16 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "优选商城主模块"
+    },
+    {
+      "name": "ability_desc",
+      "value": "优选商城入口"
+    },
+    {
+      "name": "ability_label",
+      "value": "优选商城"
+    }
+  ]
+}

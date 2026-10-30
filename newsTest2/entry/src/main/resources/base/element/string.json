@@ -1,0 +1,16 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "资讯头条主模块"
+    },
+    {
+      "name": "ability_desc",
+      "value": "资讯头条入口"
+    },
+    {
+      "name": "ability_label",
+      "value": "资讯头条2"
+    }
+  ]
+}

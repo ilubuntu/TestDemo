@@ -1,0 +1,16 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "资讯头条2"
+    },
+    {
+      "name": "harmonyos_dev_assistant",
+      "value": "0.2.0"
+    },
+    {
+      "name": "harmonyos_dev_assistant_feature",
+      "value": "harmonyos-multi-device"
+    }
+  ]
+}
