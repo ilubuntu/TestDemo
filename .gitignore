@@ -1,0 +1,26 @@
+# HarmonyOS / DevEco 构建产物
+build/
+.hvigor/
+.cxx/
+.preview/
+.clangd/
+.app-config.json
+*.hap
+*.har
+
+# 依赖
+node_modules/
+oh_modules/
+
+# IDE
+.idea/
+
+# 本地配置
+local.properties
+
+# 测试缓存
+.test/
+
+# 操作系统
+.DS_Store
+Thumbs.db
