@@ -1,0 +1,220 @@
+{
+  "package": "mscp.1.xxxxxx",
+  "bundle_type": "app",
+  "ability": "EntryAbility",
+  "ability_source": "entry module.json5 mainElement（D:\\AIApiTEST\\all\\apps\\Recipes\\products\\entry）",
+  "orientation_declared": null,
+  "entry_module": "D:\\AIApiTEST\\all\\apps\\Recipes\\products\\entry",
+  "modules": [
+    {
+      "name": "entry",
+      "path": "D:\\AIApiTEST\\all\\apps\\Recipes\\products\\entry",
+      "type": "entry",
+      "mainElement": "EntryAbility",
+      "installationFree": false,
+      "abilities": [
+        "EntryAbility"
+      ],
+      "orientations": {
+        "EntryAbility": null
+      },
+      "artifacts": [
+        "D:\\AIApiTEST\\all\\apps\\Recipes\\products\\entry\\build\\default\\outputs\\default\\entry-default-signed.hap"
+      ]
+    },
+    {
+      "name": "commonlib",
+      "path": "D:\\AIApiTEST\\all\\apps\\Recipes\\commons\\commonlib",
+      "type": "har",
+      "mainElement": null,
+      "installationFree": false,
+      "abilities": [],
+      "orientations": {},
+      "artifacts": []
+    },
+    {
+      "name": "classification",
+      "path": "D:\\AIApiTEST\\all\\apps\\Recipes\\features\\classification",
+      "type": "har",
+      "mainElement": null,
+      "installationFree": false,
+      "abilities": [],
+      "orientations": {},
+      "artifacts": []
+    },
+    {
+      "name": "home",
+      "path": "D:\\AIApiTEST\\all\\apps\\Recipes\\features\\home",
+      "type": "har",
+      "mainElement": null,
+      "installationFree": true,
+      "abilities": [],
+      "orientations": {},
+      "artifacts": []
+    },
+    {
+      "name": "mine",
+      "path": "D:\\AIApiTEST\\all\\apps\\Recipes\\features\\mine",
+      "type": "",
+      "mainElement": null,
+      "installationFree": false,
+      "abilities": [],
+      "orientations": {},
+      "artifacts": []
+    },
+    {
+      "name": "network",
+      "path": "D:\\AIApiTEST\\all\\apps\\Recipes\\commons\\network",
+      "type": "har",
+      "mainElement": null,
+      "installationFree": false,
+      "abilities": [],
+      "orientations": {},
+      "artifacts": []
+    },
+    {
+      "name": "link_category",
+      "path": "D:\\AIApiTEST\\all\\apps\\Recipes\\components\\link_category",
+      "type": "har",
+      "mainElement": null,
+      "installationFree": false,
+      "abilities": [],
+      "orientations": {},
+      "artifacts": []
+    },
+    {
+      "name": "featured_recipes",
+      "path": "D:\\AIApiTEST\\all\\apps\\Recipes\\components\\featured_recipes",
+      "type": "har",
+      "mainElement": null,
+      "installationFree": false,
+      "abilities": [],
+      "orientations": {},
+      "artifacts": []
+    },
+    {
+      "name": "home_search",
+      "path": "D:\\AIApiTEST\\all\\apps\\Recipes\\components\\home_search",
+      "type": "har",
+      "mainElement": null,
+      "installationFree": false,
+      "abilities": [],
+      "orientations": {},
+      "artifacts": []
+    },
+    {
+      "name": "calories",
+      "path": "D:\\AIApiTEST\\all\\apps\\Recipes\\features\\calories",
+      "type": "",
+      "mainElement": null,
+      "installationFree": false,
+      "abilities": [],
+      "orientations": {},
+      "artifacts": []
+    },
+    {
+      "name": "calorie_calculation",
+      "path": "D:\\AIApiTEST\\all\\apps\\Recipes\\components\\calorie_calculation",
+      "type": "har",
+      "mainElement": null,
+      "installationFree": false,
+      "abilities": [],
+      "orientations": {},
+      "artifacts": []
+    },
+    {
+      "name": "aggregated_ads",
+      "path": "D:\\AIApiTEST\\all\\apps\\Recipes\\components\\aggregated_ads",
+      "type": "har",
+      "mainElement": null,
+      "installationFree": false,
+      "abilities": [],
+      "orientations": {},
+      "artifacts": []
+    },
+    {
+      "name": "aggregated_payment",
+      "path": "D:\\AIApiTEST\\all\\apps\\Recipes\\components\\aggregated_payment",
+      "type": "har",
+      "mainElement": null,
+      "installationFree": false,
+      "abilities": [],
+      "orientations": {},
+      "artifacts": []
+    },
+    {
+      "name": "aggregated_login",
+      "path": "D:\\AIApiTEST\\all\\apps\\Recipes\\components\\aggregated_login",
+      "type": "har",
+      "mainElement": null,
+      "installationFree": false,
+      "abilities": [],
+      "orientations": {},
+      "artifacts": []
+    },
+    {
+      "name": "base_ui",
+      "path": "D:\\AIApiTEST\\all\\apps\\Recipes\\components\\base_ui",
+      "type": "har",
+      "mainElement": null,
+      "installationFree": false,
+      "abilities": [],
+      "orientations": {},
+      "artifacts": []
+    },
+    {
+      "name": "shopping_basket",
+      "path": "D:\\AIApiTEST\\all\\apps\\Recipes\\components\\shopping_basket",
+      "type": "har",
+      "mainElement": null,
+      "installationFree": false,
+      "abilities": [],
+      "orientations": {},
+      "artifacts": []
+    },
+    {
+      "name": "upload_recipe",
+      "path": "D:\\AIApiTEST\\all\\apps\\Recipes\\components\\upload_recipe",
+      "type": "har",
+      "mainElement": null,
+      "installationFree": false,
+      "abilities": [],
+      "orientations": {},
+      "artifacts": []
+    },
+    {
+      "name": "personal_homepage",
+      "path": "D:\\AIApiTEST\\all\\apps\\Recipes\\components\\personal_homepage",
+      "type": "har",
+      "mainElement": null,
+      "installationFree": false,
+      "abilities": [],
+      "orientations": {},
+      "artifacts": []
+    }
+  ],
+  "artifacts": [
+    "D:\\AIApiTEST\\all\\apps\\Recipes\\products\\entry\\build\\default\\outputs\\default\\entry-default-signed.hap"
+  ],
+  "install_mode": "single",
+  "dependencies": [],
+  "device_verify": {
+    "device_mainAbility": "EntryAbility",
+    "device_abilities": [
+      "EntryAbility",
+      "EntryFormAbility"
+    ],
+    "aa_start_project_name": true,
+    "aa_start_output": "start ability successfully."
+  },
+  "install_log": [
+    "hdc install -r D:\\AIApiTEST\\all\\apps\\Recipes\\products\\entry\\build\\default\\outputs\\default\\entry-default-signed.hap: rc=0 [Info]App install path:D:\\AIApiTEST\\all\\apps\\Recipes\\products\\entry\\build\\default\\outputs\\default\\entry-default-signed.hap msg:install bundle successfully. \nAppMod finish"
+  ],
+  "install_receipt": {
+    "artifacts_sha256": {
+      "D:\\AIApiTEST\\all\\apps\\Recipes\\products\\entry\\build\\default\\outputs\\default\\entry-default-signed.hap": "a740cee8f19d5c540b59c7410e5c492f51e57228ef8bd3715e6128ea82a8a278"
+    },
+    "combined_sha256": "efee4edbd27ae46f17d5e9d3b1f8e873ae515bff9878e69b2dc7013015900dcd",
+    "installed_at": "2026-10-17T17:21:58"
+  }
+}

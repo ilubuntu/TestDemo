@@ -1,0 +1,124 @@
+{
+  "app": {
+    "signingConfigs": [
+//      {
+//        "name": "default",
+//        "type": "HarmonyOS",
+//        "material": {
+//          "certpath": "C:\\Users\\chenglu\\.ohos\\config\\default_Recipes_zTngbmZu9DoyBvBiJEyNifGYB73H0U_Nj7sn813sr2w=.cer",
+//          "keyAlias": "debugKey",
+//          "keyPassword": "0000001BA0B55B34C4C6E62BB1F8145824EC15CFD6DDE090251DACB75B1346AB6C3721116FB3E4BB2E05A0",
+//          "profile": "C:\\Users\\chenglu\\.ohos\\config\\default_Recipes_zTngbmZu9DoyBvBiJEyNifGYB73H0U_Nj7sn813sr2w=.p7b",
+//          "signAlg": "SHA256withECDSA",
+//          "storeFile": "C:\\Users\\chenglu\\.ohos\\config\\default_Recipes_zTngbmZu9DoyBvBiJEyNifGYB73H0U_Nj7sn813sr2w=.p12",
+//          "storePassword": "0000001B9F4DE75C2FF13DA637DCCFB9743E6A11D2F02524CD7278700ED19DBF8928445C76A8CFE6274F63"
+//        }
+//      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "compatibleSdkVersion": "5.0.4(16)",
+        "targetSdkVersion": "5.0.4(16)",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "strictMode": {
+            "caseSensitiveCheck": true,
+            "useNormalizedOHMUrl": true
+          }
+        }
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug"
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./products/entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "commonlib",
+      "srcPath": "./commons/commonlib"
+    },
+    {
+      "name": "classification",
+      "srcPath": "./features/classification"
+    },
+    {
+      "name": "home",
+      "srcPath": "./features/home"
+    },
+    {
+      "name": "mine",
+      "srcPath": "./features/mine"
+    },
+    {
+      "name": "network",
+      "srcPath": "./commons/network"
+    },
+    {
+      "name": "link_category",
+      "srcPath": "./components/link_category"
+    },
+    {
+      "name": "featured_recipes",
+      "srcPath": "./components/featured_recipes"
+    },
+    {
+      "name": "home_search",
+      "srcPath": "./components/home_search"
+    },
+    {
+      "name": "calories",
+      "srcPath": "./features/calories"
+    },
+    {
+      "name": "calorie_calculation",
+      "srcPath": "./components/calorie_calculation"
+    },
+    {
+      "name": "aggregated_ads",
+      "srcPath": "./components/aggregated_ads"
+    },
+    {
+      "name": "aggregated_payment",
+      "srcPath": "./components/aggregated_payment"
+    },
+    {
+      "name": "aggregated_login",
+      "srcPath": "./components/aggregated_login"
+    },
+    {
+      "name": "base_ui",
+      "srcPath": "./components/base_ui"
+    },
+    {
+      "name": "shopping_basket",
+      "srcPath": "./components/shopping_basket"
+    },
+    {
+      "name": "upload_recipe",
+      "srcPath": "./components/upload_recipe"
+    },
+    {
+      "name": "personal_homepage",
+      "srcPath": "./components/personal_homepage"
+    }
+  ]
+}
